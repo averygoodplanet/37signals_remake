@@ -3,3 +3,17 @@ AUTHOR: Peter Himmelreich
 		averygoodplanet@gmail.com
 		averygoodplanet.com
 */
+
+#left_header {
+	width: auto;
+	float: left;
+}
+
+#right_header {
+	width: auto;
+	float: right;
+}
+
+#center_wrapper {
+	clear: both;
+}
