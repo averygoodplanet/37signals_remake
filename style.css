@@ -7,13 +7,42 @@ AUTHOR: Peter Himmelreich
 #left_header {
 	width: auto;
 	float: left;
+	color: #999;
+	font-size: 12px;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	padding: 4px 10px 0 10px;
+	margin-left: 56px;
 }
 
-#right_header {
+.right_header {
 	width: auto;
 	float: right;
+	margin-right: 56px;
+}
+
+.right_header a {
+	text-decoration: none;
+	color: #369;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 12px;
+	margin-left: 20px;
+}
+
+.right_header a:hover {
+	color: #C2C2D6;
+}
+
+#Sign_in {
+	color: #00FFFF;
+}
+
+#Sign_in:hover {
+	color: black;
 }
 
 #center_wrapper {
 	clear: both;
+	border: 1px solid; /* just for building */
+	margin: auto;
+	width: 860px;
 }
