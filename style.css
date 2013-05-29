@@ -45,4 +45,21 @@ AUTHOR: Peter Himmelreich
 	border: 1px solid; /* just for building */
 	margin: auto;
 	width: 860px;
+	padding-top: 46px;
+}
+
+#logo {
+	margin-left: 348px; /* Centering with principle "margin-left =(parentwidth - childwidth)/2" */
+}
+
+h1 {
+	font-size: 58px;
+	letter-spacing: -2px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+h5 {
+	font-size: 20px;
+	text-align: center;
 }
