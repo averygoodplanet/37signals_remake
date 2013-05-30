@@ -70,8 +70,8 @@ h5 {
 	border-radius: 6px;
 	display: inline-block;
 	margin-right: 40px;
-	background-color: #DDDDE4;
-	border: 1px solid gray;
+	background-color: #EBEBEB;
+	border: 1px solid #BCBCBC;
 }
 
 .box a {
@@ -92,6 +92,19 @@ h5 {
 	font-size: 14px;
 	font-weight: bold;
 	margin-top: 50px;
+}
+
+.box h6 {
+	position: absolute;
+	color: #222;
+	font-size: 14px;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-weight: normal;
+	display: block;
+	width: 160px;
+	padding-top: 50px;
+	padding-left: 10px;
+	text-align: center;
 }
 
 #firstbox {
