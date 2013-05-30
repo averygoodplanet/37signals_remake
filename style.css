@@ -63,3 +63,17 @@ h5 {
 	font-size: 20px;
 	text-align: center;
 }
+
+.box {
+	height: 250px;
+	width: 185px;
+	background-color: grey;
+	border-radius: 6px;
+	display: inline-block;
+	margin-right: 40px;
+	/* background-color: #efefef; */
+}
+
+#firstbox {
+	margin-left: 100px;
+}
