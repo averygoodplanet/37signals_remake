@@ -115,3 +115,10 @@ h5 {
 	display: block;
 	margin: 20px auto 0 auto;
 }
+
+#break {
+	display: block;
+	margin: 40px auto 40px auto;
+	width: 74px;
+	height: 12px;
+}
