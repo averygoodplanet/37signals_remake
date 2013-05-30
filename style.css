@@ -67,13 +67,28 @@ h5 {
 .box {
 	height: 250px;
 	width: 185px;
-	background-color: grey;
 	border-radius: 6px;
 	display: inline-block;
 	margin-right: 40px;
-	/* background-color: #efefef; */
+	background-color: #DDDDE4;
+	border: 1px solid gray;
+}
+
+.box a {
+	position: absolute;
+	color: rgb(51, 102, 153);
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 21px;
+	font-weight: bold;
+	margin-left: 36px;
+	margin-top: 12px;
 }
 
 #firstbox {
 	margin-left: 100px;
+}
+
+.imagewithin {
+	display: block;
+	margin: 20px auto 0 auto;
 }
