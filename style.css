@@ -131,6 +131,15 @@ h2 {
 	text-align: center;
 }
 
+/* Couldn't get this to work:
+#left_text_box:before{
+	content:"";
+	position: absolute;
+	background-image: url("images/customers_bw.png");
+	width:100px;
+	height:100px:
+} */
+
 #left_text_box {
 	float: left;
 	width: 635px;
@@ -147,4 +156,24 @@ h2 {
 
 #worldbadge {
 	margin-top: 30px;
+}
+
+#customers {
+	position: relative;
+	/* The relative position changes based on element being outside
+	of and before the center_wrapper in the html code */
+	top: 880px;
+	left: -45px;
+}
+
+#customers a {
+	position: relative;
+	left: -125px;
+	font-size: 10px;
+	text-decoration: none;
+	color: rgb(51, 102, 153);
+}
+
+#customers a:hover {
+	text-decoration: underline;
 }
