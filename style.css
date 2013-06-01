@@ -177,3 +177,7 @@ h2 {
 #customers a:hover {
 	text-decoration: underline;
 }
+
+#customerlogos {
+	margin-top: 35px;
+}
