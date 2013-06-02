@@ -118,6 +118,7 @@ h5 {
 }
 
 #break {
+	clear: both;
 	display: block;
 	margin: 40px auto 40px auto;
 	width: 74px;
@@ -163,8 +164,14 @@ h2 {
 	position: relative;
 	/* The relative position changes based on element being outside
 	of and before the center_wrapper in the html code */
-	top: 880px;
-	left: -45px;
+	bottom: 150px;
+	right: 120px;
+	overflow: visible; 
+	/*This overflow:visible is needed in this div and in the parent div--center-wrapper--to allow the image to show outside of the center-wrapper. */
+	margin-bottom: -120px; 
+	/* This margin-bottom is used to eliminate the space created below
+	the div within the center-wrapper once the customers-div is move out
+	to the left and up to be along side the center-wrapper div. */
 }
 
 #customers a {
@@ -184,6 +191,7 @@ h2 {
 	left: 860px;
 	bottom: 145px;
 	overflow:visible; /* So that image isn't cut-off by container div; also set this property on "center-wrapper" div. */
+	margin-bottom: -160px;
 }
 
 #rework_side a {
@@ -271,3 +279,41 @@ h4 {
 #text p a:hover {
 	text-decoration: underline;
 }
+
+#rework_description a img{
+	float:left;
+	width: 293px;
+}
+
+#rework_description p {
+	float: right;
+}
+
+.quote_body {
+	font-style: italic;
+	color: #888;
+	font-family: "CrimsonRomanItalic", "Times New Roman", Georgia, serif;
+	font-size: 22px;
+	text-align: center;
+}
+
+#first_quote {
+	width: 560px;
+}
+
+#second_quote {
+	font-size: 18px;
+	text-align: justify;
+	width: 495px;
+	margin-right: 45px;
+}
+
+.quote_citation {
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size:12px;
+	line-height: 1.5em;
+	text-align: center;
+	color: #222;
+	width: 558px;
+}
+
