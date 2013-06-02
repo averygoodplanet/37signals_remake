@@ -317,3 +317,55 @@ h4 {
 	width: 558px;
 }
 
+/*boxB is a repeat with slight modifications of the .box above */
+.boxB {
+	height: 250px;
+	width: 185px;
+	/* border-radius: 6px; */
+	display: inline-block;
+	margin-right: 40px;
+	/* background-color: #EBEBEB; */
+	/* border: 1px solid #BCBCBC; */
+}
+
+.boxB h4 {
+	position: absolute;
+	color: black;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 21px;
+	font-weight: bold;
+	margin-left: 36px;
+	margin-top: 12px;
+	text-decoration: none;
+}
+
+.boxB p {
+	position: absolute;
+	margin-left: 25px;
+	color: rgb(204, 0, 0);
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 50px;
+}
+
+.boxB h6 {
+	position: absolute;
+	color: #666;
+	font-size: 12px;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-weight: normal;
+	display: block;
+	width: 160px;
+	padding-top: 50px;
+	padding-left: 10px;
+	text-align: center;
+}
+
+a:hover .boxB h4 {
+	color: #369;
+}
+
+#firstboxB {
+	margin-left: 100px;
+}
