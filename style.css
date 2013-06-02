@@ -426,3 +426,33 @@ a:hover .boxB h4 {
 	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 	text-align: center;
 }
+
+#more_about {
+	width: 170px;
+	height: 245px;
+	margin: 0 auto;
+}
+
+#more_about p {
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 14px;
+	margin: 5px 0;
+	color: #c00;
+	line-height: 1.5em;
+	text-align: center;
+	font-weight: bold;
+}
+
+#more_about a {
+	color: rgb(51, 102, 153);
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	font-size: 12px;
+	margin-top: 25px;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+#more_about a:hover {
+	color: #6699cc;
+}
