@@ -369,3 +369,57 @@ a:hover .boxB h4 {
 #firstboxB {
 	margin-left: 100px;
 }
+
+#our_stuff {
+	height: 400px;
+	width: 630px;
+	margin: 0 auto;
+}
+
+#our_stuff_left {
+	height: 400px;
+	width: 315px;
+	float: left;
+}
+
+#our_stuff_right {
+	height: 400px;
+	width: 315px;
+	float: right;
+}
+
+.our_stuff_small {
+	width: 315px;
+	height: 200px;
+}
+
+#red {
+ margin: 5px 0;
+ font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+ font-size: 14px;
+ color: #cc0000;
+ text-align: center;
+ border-bottom: 1px solid #e8e8e8;
+ padding-bottom: 5px;
+}
+
+.our_stuff_small a {
+	display: block;
+	text-align: center;
+	font-size: 22px;
+	font-weight:bold;
+	font-style: normal;
+	color: #222;
+	text-decoration: none;
+}
+
+.our_stuff_small a:hover {
+	color: #6699cc;
+}
+
+.our_stuff_small p {
+	color: #666;
+	font-size: 12px;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	text-align: center;
+}
