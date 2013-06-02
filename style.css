@@ -372,20 +372,22 @@ a:hover .boxB h4 {
 
 #our_stuff {
 	height: 400px;
-	width: 630px;
+	width: 631px;
 	margin: 0 auto;
 }
 
 #our_stuff_left {
 	height: 400px;
-	width: 315px;
+	width: 300px;
 	float: left;
+	margin-left: -70px;
 }
 
 #our_stuff_right {
 	height: 400px;
-	width: 315px;
+	width: 300px;
 	float: right;
+	margin-right: -20px;
 }
 
 .our_stuff_small {
@@ -394,14 +396,15 @@ a:hover .boxB h4 {
 }
 
 #red {
- margin: 5px 0;
- font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
- font-size: 14px;
- color: #cc0000;
- text-align: center;
- border-bottom: 1px solid #e8e8e8;
- padding-bottom: 5px;
-}
+	margin: 5px 0;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 14px;
+	color: #cc0000;
+	text-align: center;
+	border-bottom: 1px solid #e8e8e8;
+	padding-bottom: 5px;
+	width: 317px;
+ }
 
 .our_stuff_small a {
 	display: block;
