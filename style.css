@@ -46,6 +46,7 @@ AUTHOR: Peter Himmelreich
 	margin: auto;
 	width: 860px;
 	padding-top: 46px;
+	overflow: visible;
 }
 
 #logo {
@@ -175,6 +176,26 @@ h2 {
 }
 
 #customers a:hover {
+	text-decoration: underline;
+}
+
+#rework_side {
+	position: relative;
+	left: 860px;
+	bottom: 145px;
+	overflow:visible; /* So that image isn't cut-off by container div; also set this property on "center-wrapper" div. */
+}
+
+#rework_side a {
+	display: block;
+	margin-left: 50px;
+	position: relative;
+	font-size: 10px;
+	text-decoration:none;
+	color: rgb(51, 102, 153);
+}
+
+#rework_side a:hover {
 	text-decoration: underline;
 }
 
