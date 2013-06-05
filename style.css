@@ -107,8 +107,31 @@ h5 {
 	text-align: center;
 }
 
-#firstbox {
+.box a {
+	text-decoration: none;
+}
+
+.box a span {
+	text-decoration: underline;
+}
+
+.box a sup {
+	color: gray;
+	font-size: 10px;
+	text-decoration: none;
+}
+
+#bc-box {
 	margin-left: 100px;
+}
+
+.headline {
+	display: none;
+	min-height: 350px;
+}
+
+.selected {
+	display: block!important;
 }
 
 .imagewithin {
