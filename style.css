@@ -130,6 +130,11 @@ h5 {
 	min-height: 350px;
 }
 
+.headline h1 span{
+	text-decoration: underline;
+	color: #369;
+}
+
 .selected {
 	display: block!important;
 }
