@@ -69,6 +69,7 @@ h5 {
 	width: 185px;
 	border-radius: 6px;
 	display: inline-block;
+	margin-top: 200px;
 	margin-right: 40px;
 	background-color: #EBEBEB;
 	border: 1px solid #BCBCBC;
@@ -127,7 +128,10 @@ h5 {
 
 .headline {
 	display: none;
-	min-height: 350px;
+	/* min-height: 350px; */
+	height: 162px;
+	width: 825px;
+	margin-left: -20px;
 }
 
 .headline h1 span{
@@ -192,7 +196,7 @@ h2 {
 	/* The relative position changes based on element being outside
 	of and before the center_wrapper in the html code */
 	bottom: 150px;
-	right: 120px;
+	right: 140px;
 	overflow: visible; 
 	/*This overflow:visible is needed in this div and in the parent div--center-wrapper--to allow the image to show outside of the center-wrapper. */
 	margin-bottom: -120px; 
