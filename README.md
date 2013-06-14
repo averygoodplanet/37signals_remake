@@ -1,4 +1,4 @@
 37signals_remake
 ================
 
-Thinkful.com educational project to recreate the static look of the 37signals homepage.
+Thinkful.com educational project to recreate the static look and some jQuery effects of the 37signals homepage.
