@@ -7,6 +7,14 @@
 // RE: RUNNING WEBPAGE This has to be loaded into Chrome from a public link (e.g. Dropbox or live website) for the jQuery to work.
 
 $(document).ready(function () {  // Waits till DOM is loaded "document ready" to run jQuery.
+	var days_of_week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+	var today = new Date();
+	var thisDay = days_of_week[today.getDay()];
+	$("#day_of_week").text(thisDay);
+	//console.log("Today: "+today+"\n");
+	//console.log("thisDay:"+thisDay+"\n");
+    //console.log("days_of_week[2]:"+days_of_week[2]+"\n");
+
 // On mouseenter .box, by adding and removing .selected class, hide default headline, and show corresponding headline (e.g. for #bc-box, show #bc-text headline).
 	$(".box").mouseenter(function (event) { // When mouse enters a box class div, then execute this function.
 		var current = $(this).attr("id"); // Store this box class div's id in variable current, e.g. var current = "bc-box".
