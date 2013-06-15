@@ -126,6 +126,24 @@ h5 {
 	margin-left: 100px;
 }
 
+#bc-arrow {
+	position: relative;
+	left: 270px;
+	bottom: 25px;
+}
+
+#hr-arrow {
+	position: relative;
+	left: 490px;
+	bottom: 25px;
+}
+
+#cf-arrow {
+	position: relative;
+	left: 570px;
+	bottom: 25px;
+}
+
 .headline {
 	display: none;
 	/* min-height: 350px; */
