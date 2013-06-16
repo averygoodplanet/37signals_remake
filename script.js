@@ -7,13 +7,13 @@
 // RE: RUNNING WEBPAGE This has to be loaded into Chrome from a public link (e.g. Dropbox or live website) for the jQuery to work.
 
 $(document).ready(function () {  // Waits till DOM is loaded "document ready" to run jQuery.
+
+	//This section determines today's day of week for use in #day_of_week, upper-left hand corner of the webpage, e.g. "Happy Saturday."
 	var days_of_week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 	var today = new Date();
 	var thisDay = days_of_week[today.getDay()];
 	$("#day_of_week").text(thisDay);
-	//console.log("Today: "+today+"\n");
-	//console.log("thisDay:"+thisDay+"\n");
-    //console.log("days_of_week[2]:"+days_of_week[2]+"\n");
+
 
 // On mouseenter .box, by adding and removing .selected class, hide default headline, and show corresponding headline (e.g. for #bc-box, show #bc-text headline).
 	$(".box").mouseenter(function (event) { // When mouse enters a box class div, then execute this function.
@@ -33,5 +33,14 @@ $(document).ready(function () {  // Waits till DOM is loaded "document ready" to
 		$("#hl_boxes_wrapper").find(".selected").removeClass("selected"); // Removes .selected from this .box class div--hiding this headline.
 		$("#hl-text").addClass("selected"); //Adds .selected to default headline (with id="hl-text"), displaying it.
 		console.log("Mouseleave after removeClass and addClass selected, id of div with .selected: "+$(".selected").attr("id"));
+	});
+	
+	//This section changes the photo above the "Meet some customers" link from black-and-white to color and back on mouseenter and mouseleave.
+	//There is an unresolved issue that I did not crop the images exactly the same, so that the image appears to move.
+	$("#customers_image").on("mouseenter", function (event) {
+		$("#customers_image").attr("src", "images/customers_color2.png");
+	});
+	$("#customers_image").on("mouseleave", function (event) {
+		$("#customers_image").attr("src", "images/customers_bw.png");
 	});
 });

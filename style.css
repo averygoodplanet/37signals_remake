@@ -235,6 +235,11 @@ h2 {
 	text-decoration: underline;
 }
 
+#customers_image {
+	height: 105px;
+	width: 143px;
+}
+
 #rework_side {
 	position: relative;
 	left: 860px;
